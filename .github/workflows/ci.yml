@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request: ~
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+
+jobs:
+  lint:
+    name: Lint Sheets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 7.4
+          tools: prestissimo
+          coverage: none
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run Linter
+        run: |
+          php -r "copy('https://github.com/live-worksheet/parser/raw/main/bin/material-parser.phar', 'material-parser');"
+          php material-parser lint sheets
