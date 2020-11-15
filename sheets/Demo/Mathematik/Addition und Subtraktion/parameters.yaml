@@ -1,0 +1,16 @@
+_functions:
+  - a1 = integer(1, 9)
+  - b1 = integer(1, 9)
+  - c1 = integer(1, 9)
+
+  - S1 = a1 + b1 - c1
+
+  - a2 = integer(100, 999)
+  - b2 = integer(10, 99)
+  - c2 = integer(100, 999)
+  - d2 = integer(1000, 9999)
+  - e2 = integer(100, 999)
+
+  - S2_1 = c2 + d2
+  - S2_2 = a2 + b2 + e2
+  - S2 = S2_1 - S2_2
