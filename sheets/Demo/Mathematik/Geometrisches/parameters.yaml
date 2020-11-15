@@ -1,0 +1,9 @@
+_functions:
+  - l = integer(3, 15)
+  - l_mm = 10 * l
+  - A = l * b
+  - b = integer(3, 15)
+  - expr: d = sqrt(l*l + b*b)
+    compare: round
+    precision: 2
+  - U = l + l + b + b

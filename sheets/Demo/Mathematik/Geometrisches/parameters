@@ -1,6 +1,0 @@
-l = random_int(3, 15)
-l_mm = 10 * l
-b = random_int(3, 15)
-A = l * b
-d = sqrt(l*l + b*b) | round 2
-U = l + l + b + b

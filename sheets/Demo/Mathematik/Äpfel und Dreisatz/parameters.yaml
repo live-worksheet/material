@@ -1,0 +1,14 @@
+_functions:
+  # Protagonisten
+  - P1 = name('f')
+  - P2 = name('m')
+  - P3 = name('m')
+
+  # Dreisatz: Dauer (h)
+  - h = integer(2, 5)
+  - n_Ah = 10 * integer(20, 80)
+  - A = h_gesamt * n_Ah / h
+
+  # Dreisatz: Dauer mit Hilfe (min)
+  - h_gesamt = h * integer(2, 9)
+  - h_gesamt_3 = h_gesamt * 60 / 3

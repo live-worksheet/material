@@ -1,8 +1,0 @@
-grade = random_int(5, 11)
-n_m = random_int(5, 10)
-n_f = random_int(5, 10)
-n = n_f + n_m
-p_m = 100 * n_m / n | round 1
-
-p_f_new = (100 * n_f_new / n_f) - 100 | round 1
-n_f_new = random_int(1, 3) + n_f

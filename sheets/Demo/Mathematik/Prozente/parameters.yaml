@@ -1,0 +1,16 @@
+_functions:
+  - grade = integer(5, 11)
+  - n_m = integer(5, 10)
+  - n_f = integer(5, 10)
+  - n = n_f + n_m
+
+  # Anteil der Jungen
+  - expr: p_m = 100 * n_m / n
+    compare: round
+    precision: 1
+
+  # Zuwachs an Mädchen
+  - expr: p_f_new = (100 * n_f_new / n_f) - 100
+    compare: round
+    precision: 1
+  - n_f_new = integer(1, 3) + n_f
