@@ -1,5 +1,5 @@
 # Apfelernte
-Diesen Herbst will {{P1}} alle Äpfel, die von ihrem Baum im Garten heruntergefallen sind, einsammeln, um groß ins Apfelsaft-Business einzusteigen.
+Diesen Herbst will {{P1}} alle Äpfel, die von ihrem Baum im Schulgarten heruntergefallen sind, einsammeln, um groß ins Apfelsaft-Business einzusteigen.
 Sie weiß von den letzten Jahren, dass sie rund {{h}} Stunden benötigt, um {{n_Ah}} Äpfel aufzulesen.
 
 ![Apfelbaum mit Leiter](resources/apple-tree.svg)
